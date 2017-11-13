@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "662748415478",
+    "firebase_url": "https://mcardapio-c800d.firebaseio.com",
+    "project_id": "mcardapio-c800d",
+    "storage_bucket": "mcardapio-c800d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662748415478:android:42d952222fa27d2d",
+        "android_client_info": {
+          "package_name": "br.ufms.facom.mcardapio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662748415478-n4m88lqid6u0h7vr600m3f3rp6nashds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufms.facom.mcardapio",
+            "certificate_hash": "7132f46a1bad9bf00e3dc9b862208f2611797b3e"
+          }
+        },
+        {
+          "client_id": "662748415478-v930eo1gae44su0rdf7l09ve071m1ndt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQC5BuienueFrdDRRM8PICcLm0_aX4PfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662748415478-v930eo1gae44su0rdf7l09ve071m1ndt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
