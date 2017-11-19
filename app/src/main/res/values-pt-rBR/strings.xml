@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MCardapio</string>
+    <string name="action_sign_in">Entrar ou Registrar-se</string>
+    <string name="title_activity_login">Logar</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in_short">Logar</string>
+    <string name="error_invalid_email">Endereço de email Inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+</resources>
