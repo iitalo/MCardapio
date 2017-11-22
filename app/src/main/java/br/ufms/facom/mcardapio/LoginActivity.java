@@ -168,6 +168,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         i.putExtra("email", user.getEmail());
         i.putExtra("photoUrl", user.getPhotoUrl().toString());
         startActivity(i);
+        LoginActivity.this.finish();
     }
 
     @Override
@@ -356,12 +357,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     // Login com conta do facebook
     private  void handlerFacebookAccessToken(AccessToken accessToken)   {
+        showProgress(true);
+
         AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
         mAuth.signInWithCredential(credential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
 
-                showProgress(true);
 
                 if (!task.isSuccessful()) {
                     Log.w(TAG_F, "signInWithCredential", task.getException());
@@ -370,7 +372,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 } else {
                    user = mAuth.getCurrentUser();
                    logado();
-
                 }
             }
         });
